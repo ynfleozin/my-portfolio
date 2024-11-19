@@ -1,0 +1,44 @@
+:host{
+  margin-top: 25px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .content{
+    width: 50%;
+    margin: 15px auto;
+    text-align: center;
+  }
+
+  .contact-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .contact-list button {
+    border: none;
+    border-radius: 50%;
+
+    width: 60px;
+    height: 60px;
+    background-color: var(--primary);
+    cursor: pointer;
+  }
+
+  .contact-list button:hover{
+    background-color: var(--primary-010);
+    transform: translateY(-5px);
+    transition: 0.5s;
+  }
+
+  @media(max-width: 750px){
+    .content{
+      width: 90%;
+    }
+  }
+}

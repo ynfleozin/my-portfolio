@@ -1,0 +1,44 @@
+html,
+body{
+  height: 100%;
+}
+body {
+  margin: 0;
+  background-color: var(--secondary);
+  font-family: Poppins, sans-serif;
+}
+
+h2{
+  font-size: var(--h2-font);
+}
+
+h1,h2,h3,a,p{
+  color: var(--white);
+  text-decoration: none;
+}
+
+p{
+  font-size: var(--p-font);
+  margin: 10px 0;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Barra Rolagem */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-010);
+  border-radius: 10px;
+}

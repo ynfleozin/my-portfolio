@@ -1,0 +1,47 @@
+:host{
+  margin-top: 25px;
+  padding: 25px 0;
+  background-color: var(--primary);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  h2{
+    text-align: center;
+    margin: 0;
+  }
+
+  ul{
+    margin-top: 15px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  li{
+    width: 150px;
+    height: 110px;
+    background-color: var(--secondary);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 7px;
+  }
+
+  li:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+  }
+
+  li p{
+    font-size: 13px;
+    color: var(--gray);
+  }
+}
