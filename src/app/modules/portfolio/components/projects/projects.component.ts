@@ -58,6 +58,18 @@ export class ProjectsComponent {
         }
       ]
     },
+    {
+      src: 'assets/img/projects/URL-shortener.webp',
+      alt: 'Projeto URL Shortener',
+      title: 'URL Shortener',
+      description: 'Este projeto é um sistema de encurtador de URLs desenvolvido utilizando AWS Lambda, S3 e Amazon API Gateway, com Java 17 como linguagem de programação. O sistema permite que os usuários gerem links curtos com tempo de expiração definido, além de realizar o redirecionamento para as URLs originais de forma eficiente. O projeto foi desenvolvido como parte de um aprendizado em arquitetura serverless utilizando a infraestrutura da AWS.',
+      links: [
+        {
+          name: 'Repositório',
+          href: 'https://github.com/ynfleozin/URL-shortener'
+        }
+      ]
+    },
   ])
 
   public openDialog(data: IProjects){
