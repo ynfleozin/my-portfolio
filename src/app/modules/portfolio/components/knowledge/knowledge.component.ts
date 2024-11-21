@@ -36,6 +36,16 @@ export class KnowledgeComponent {
       name: 'JavaScript'
     },
     {
+      src: 'assets/icons/knowledge/sql.svg',
+      alt: 'Ícone SQL',
+      name: 'SQL Server'
+    },
+    {
+      src: 'assets/icons/knowledge/aws.svg',
+      alt: 'Ícone AWS',
+      name: 'Amazon Web Service'
+    },
+    {
       src: 'assets/icons/knowledge/node.svg',
       alt: 'Ícone Node.js',
       name: 'Node.js'
